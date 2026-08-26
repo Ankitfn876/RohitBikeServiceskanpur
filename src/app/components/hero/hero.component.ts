@@ -75,10 +75,7 @@ import { BUSINESS_INFO } from '../../data/business-info.data';
                 </div>
               </div>
             </div>
-            <div class="experience-pill">
-              <span class="pill-star">★</span>
-              <span>अनुभवी लोकल बाइक मैकेनिक</span>
-            </div>
+            
           </div>
         </div>
       </div>
