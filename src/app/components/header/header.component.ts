@@ -24,8 +24,28 @@ import { BUSINESS_INFO } from '../../data/business-info.data';
       <nav class="navbar container">
         <a href="#" class="brand-logo">
           <div class="logo-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-              <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor">
+              <!-- Front Wheel -->
+              <circle cx="22" cy="68" r="16" fill="none" stroke="currentColor" stroke-width="4"/>
+              <circle cx="22" cy="68" r="4"/>
+              <!-- Rear Wheel -->
+              <circle cx="78" cy="68" r="16" fill="none" stroke="currentColor" stroke-width="4"/>
+              <circle cx="78" cy="68" r="4"/>
+              <!-- Front Mudguard -->
+              <path d="M 8,68 A 18,18 0 0,1 32,54" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <!-- Rear Mudguard -->
+              <path d="M 62,56 A 18,18 0 0,1 94,68" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+              <!-- Tank & Seat (Bullet Teardrop Tank + Classic Seat) -->
+              <path d="M 28,48 C 30,36 42,34 52,38 C 58,40 64,44 76,44 C 80,44 84,48 82,54 C 76,54 68,52 62,52 C 54,52 48,54 44,54 C 38,54 32,52 28,48 Z"/>
+              <!-- Front Fork & Handlebar -->
+              <line x1="22" y1="68" x2="30" y2="34" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M 28,34 Q 26,26 22,26" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <!-- Round Headlight (Bullet Casquette) -->
+              <circle cx="23" cy="35" r="4"/>
+              <!-- Engine & Crankcase -->
+              <path d="M 38,54 L 38,66 C 38,70 52,70 54,66 L 54,54 Z"/>
+              <!-- Straight Bullet Exhaust Pipe -->
+              <path d="M 44,66 L 86,66 C 88,66 88,63 86,63 L 44,63 Z"/>
             </svg>
           </div>
           <div class="logo-text">
